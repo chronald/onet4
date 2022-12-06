@@ -15,3 +15,11 @@ utilizar a tag <'meta charset="UTF-8"'> para não dar problema de acentuação.
 todo navegador tem um plugin = depurador que informa onde está o problema no código para utilizar usar f12 ou ctrl + shift + C
 
 todo texto em javascript vem entre aspas.
+
+charset = atributo
+
+alert recebe parâmetro, no javascript = " "
+
+sempre utilizar parênteses () para string
+
+utilizar document.write() dentro do script para escrever em html e deixar mais dinâmico 
