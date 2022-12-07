@@ -69,3 +69,35 @@ function mostra(frase){
 **Caso você passe um parâmetro para uma função e ao utilizar a função não informar nada ficará como undefined**
 
 utilizar a tag <.hr> para separar um resultado do outro.
+
+podemos passar mais de um parâmetro dentro de uma função.
+
+**podemos transformar uma função em uma variavel exemplo:**
+
+var imcChristian = calculaIMC(1.60, 48); 
+
+**para retornar um valor na função utilizar return exemplo:**
+
+function calculaIMC(altura, peso){
+
+​	var imc = peso / (altura * altura);
+
+​	return imc;
+
+}
+
+**pode utilizar somente o return no calculo caso queira.**
+
+function calculaIMC(altura, peso){
+
+​	return peso / (altura * altura);	
+
+}
+
+**para realizar uma interação em javascript utilizar prompt conforme o exemplo abaixo**:
+
+var alturaInformada = prompt('Informe sua altura:');
+
+**para transformar o retorno de prompt em numero ao invés de String utilizar parseInt() exemplo:**
+
+var vitorias = parseInt(prompt('Numero de vitorias: ')); 
