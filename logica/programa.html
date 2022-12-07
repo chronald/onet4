@@ -3,6 +3,33 @@
 
 
 <script>
+	function pulaLinha(){
 
-	document.write("A idade do Christian é: <br> 20");
+		document.write('<br>');
+	
+
+	}
+
+	function mostra(idade){
+
+		document.write(idade);
+		pulaLinha();
+	}
+
+
+	 var ano = 2022;
+
+	mostra('Christian tem: '+ (ano - 2002)+ " anos");
+	mostra('Isabela tem: '+ (ano - 2001)+ " anos");
+	mostra('Raone tem: '+ (ano - 2000)+ ' anos');
+
+	var idadeChristian = 20;
+	var idadeIsabela = 21;
+	var idadeRaone = 22;
+
+	var media = (idadeChristian + idadeIsabela + idadeRaone )/3;
+
+	mostra('A média das idades é '+ Math.round(media));
+
+
 </script>

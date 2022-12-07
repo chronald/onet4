@@ -1,0 +1,24 @@
+<meta charset="utf-8">
+
+<script>
+	function pulaLinha(){
+
+		document.write('<br>');
+
+	}
+
+	function mostra(mediaFilhos){
+
+		document.write(mediaFilhos)
+		pulaLinha();
+	}
+
+	var anoAtual = 2022;
+	var anoAntigo = 1500;
+	var idadeMedia = 28;
+	var quantidadeDeGeracoes = (anoAtual - anoAntigo) / idadeMedia;
+
+	mostra('Com o calculo de filhos a cada 28 anos de ' + anoAntigo + ' até o ano atual, se passaram: ' + Math.round(quantidadeDeGeracoes) + " Gerações");
+
+
+</script>
