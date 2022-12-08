@@ -100,4 +100,32 @@ var alturaInformada = prompt('Informe sua altura:');
 
 **para transformar o retorno de prompt em numero ao invés de String utilizar parseInt() exemplo:**
 
-var vitorias = parseInt(prompt('Numero de vitorias: ')); 
+var vitorias = **parseInt**(prompt('Numero de vitorias: '));
+
+**Para utilizar condições em javascript utilizar o exemplo abaixo**
+
+if **(**pontos > 28**)** {
+
+​	resultado.
+
+}
+
+&& = E
+
+|| = OU
+
+! = DIFERENTE
+
+para utilizar o diferente de **if** utilizar **else** exemplo abaixo:
+
+if(pontos>28){
+
+​	resultado
+
+}else {
+
+}
+
+**Para gerar numero aleatório em javascript utilizar *Math.random exemplo:***
+
+Math.round(Math.random() * 10);
