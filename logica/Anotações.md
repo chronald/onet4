@@ -129,3 +129,57 @@ if(pontos>28){
 **Para gerar numero aleatório em javascript utilizar *Math.random exemplo:***
 
 Math.round(Math.random() * 10);
+
+**Para realizar repetição em javascript utilizar while exemplo**
+
+while (anoCopa <=2022){
+
+​	mostra("teve  copa em " + anoCopa);
+
+​	anoCopa += 4;
+
+}
+
+**variavel++ = variavel +1**
+
+**Outra forma de utilizar repetição é utilizando o for**
+
+*for (var multiplicador = 1; multiplicador <= 10; multiplicador++);*{
+
+​	var valor = 7
+
+​	mostra('${multiplicador} x ${valor} = ${valor * multiplicador}')
+
+}
+
+**Para interromper uma repetição utilizar  o exemplo abaixo**
+
+while (variavel <= 3){
+
+​	if = acertou
+
+​	mostra();
+
+​	break;
+
+}
+
+**Para criar repetições aninhadas utilizar o exemplo abaixo.**
+
+for(var linha = 1; linha <=3; linha++){
+
+​	for(var coluna = 1; coluna<10; coluna++){
+
+​	document.write("*");
+
+}
+
+}
+
+**Parar converter para números reais(com virgula) utilizar o método parseFloat();**
+
+exemplo :
+
+var numero = parseFloat("12.13");
+
+**bom para utilizar com o prompt**
