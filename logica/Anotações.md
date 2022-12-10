@@ -183,3 +183,34 @@ exemplo :
 var numero = parseFloat("12.13");
 
 **bom para utilizar com o prompt**
+
+**Para exibir um campo de entrada em html utilizar a TAG <input/''>**
+
+**Para criar um botão em HTML utilizar a tag <button'></button'>**
+
+**Para utilizar acessar o input com java script utilizar o exemplo abaixo**
+
+var input = document.querySelector("input");
+
+input.value
+
+**para saber qual o valor que está inserido na variável utilizar input.value**
+
+**O mesmo serve para o button para ser acessado pelo javascript**
+
+var button = document.querySelector("button");
+
+button.onclick = verifica;
+
+**para que o botão de click funcione precisa utilizar variavel.onclick**
+
+**para que a caixinha para escrever ganhe foco utilizar input.focus();**
+
+**para criar uma array utilizar var segredos = [5, 7, 10,2];**
+
+*obs: dentro da array os conteúdos e separado por vírgula*
+
+*obs : primeira posição do array é 0*
+
+**Para sempre ter o array atual utilizar no for segredos.length**
+
