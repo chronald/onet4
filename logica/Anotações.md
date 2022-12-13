@@ -296,10 +296,11 @@ há a possibilidade de passar uma função anônima para uma variável:
 
 **}** 
 
-**************************************************************************
+*tela.onmousedown = habilitarDesenhar;*
 
 **tela.onmousedown = function(){**
 
 ​	**desenha = true;**
 
 **}**
+
