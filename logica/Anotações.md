@@ -190,7 +190,7 @@ var numero = parseFloat("12.13");
 
 **Para utilizar acessar o input com java script utilizar o exemplo abaixo**
 
-var input = document.querySelector("input");
+var input = **document.querySelector("input")**;
 
 input.value
 
@@ -213,4 +213,44 @@ button.onclick = verifica;
 *obs : primeira posição do array é 0*
 
 **Para sempre ter o array atual utilizar no for segredos.length**
+
+------------
+
+### Javascript e HTML: pratique lógica com desenhos, animações e um jogo
+
+**a tag <'canvas width="600" height="400"> <'/canvas> é uma area para poder desenhar em HTML.**
+
+* Com <'canvas> conseguimos criar a tela de desenho e dizer qual será sua altura e largura.
+
+para ter o pincel em javaScript para poder desenhar no canvas utilizar **var pincel = tela.getContext('2d');**
+
+Para preencher um retangulo utilizar **pincel.fillRect(*0(y)*,*0(x)*,*600(width)*,*400(height)*);***
+
+para mudar a cor do pincel utilizar: **pincel.fillStyle = 'lightgrey';** *utilizar pincel.fillStyle antes do fillRect*
+
+para criar um triangulo precisa começar um caminho: **pincel.beginPath();**
+
+para mover o pincel utilizar **pincel.moveTo(300, 200);** *centralizado*
+
+pra criar a linha utilizar **pincel.lineTo(200, 400);**
+
+para aparecer o triangulo na tela utilizar pincel.fill();
+
+**para criar um circulo, também é necessário começar um caminho caso contrário continuara o caminho antigo.**
+
+para traçarmos a esfera utilizaremos a função arc() : **pincel.arc(300, 200, 50(tamanho), 0(angulo inicial), 2 * 3.14(angulo final em radianos multiplicado por PI - 3,14))**
+
+para colocar bordas nas pinturas utilizar o exemplo abaixo:
+
+**pincel.fillStroke = 'black';**
+
+**pincel.strokeRect(0, 0, 50, 50)** - parametro passado no começo do código
+
+para desenhar um texto utilizar a função **fillText();** exemplo abaixo
+
+**pincel.font='20px Georgia';**
+
+pincel.fillStyle = 'black';
+
+pincel.fillText('Qual é a fração?',50,30);
 
