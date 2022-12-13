@@ -254,3 +254,52 @@ pincel.fillStyle = 'black';
 
 pincel.fillText('Qual é a fração?',50,30);
 
+para conseguir verificar a posição do clique do mouse utilizar os exemplos abaixo na função.
+
+**function exibeCirculo(evento){**
+
+**var x = evento.pageX  - tela.offsetLeft;** - para ter mais precisão sobre a informação.
+
+**var x = evento.pageY - tela.offsetTop;** - para ter mais precisão sobre a informação.
+
+**}**
+
+Para associar a execução de uma função ao cliique do botão direito do mouse o evento responsável é 
+
+**tela.oncontextmenu = mudarCor; <(função)**
+
+para saber se o SHIFT está apertado utilizar a função:
+
+**evento.shiftKey**
+
+para saber se o ALT está apertado utilizar a função:
+
+**evento.altKey**
+
+para ser disparado quando o botão do mouse esquerdo estiver clicado usar a função:
+
+**mousedown**
+
+para saber se o botão esquerdo foi solto utilizar a função:
+
+**onmouseup**
+
+evento para capturar o movimento do mouse é:
+
+**onmousemove**
+
+há a possibilidade de passar uma função anônima para uma variável:
+
+**function habilitarDesenhar(){**
+
+​	**desenha = true;**
+
+**}** 
+
+**************************************************************************
+
+**tela.onmousedown = function(){**
+
+​	**desenha = true;**
+
+**}**
