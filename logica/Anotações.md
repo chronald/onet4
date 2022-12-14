@@ -304,3 +304,26 @@ há a possibilidade de passar uma função anônima para uma variável:
 
 **}**
 
+para usar PI em java script utilizar :
+
+**Math.PI**
+
+utilizaremos o **pincel.clearRect()**, o que indicará ao JS que ele deve limpar o retângulo
+
+Para exibir algo no javascript com intervalos utilizar a função **setInterval(função, quantidade de tempo(1000 milisegundos = 1));** - aceita receber como parâmetro a função que você deseja chamar
+
+Em JavaScript, existe o evento **onkeydown**, que permite identificar qual tecla está pressionada, porem o mesmo só pode ser chamado através do document.
+
+**document.onkeydown = função;**
+
+para identificar a tecla que está pressionada utilizar : **evento.keyCode**
+
+exemplo :**if(evento.keyCode == cima){****
+
+como podemos inverter um booleano? A resposta é através do operador lógico **NOT**, que é representado no mundo JavaScript pelo símbolo **!**.
+
+**mostraBrasil = !mostraBrasil!;**
+
+podemos utilizar **.length** para descobrir quantas letras uma palavra possui.
+
+Utilizar **Math.floor()** para arredondar para baixo.
