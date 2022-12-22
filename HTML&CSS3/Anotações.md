@@ -28,6 +28,18 @@
 
 **<'body'></'body'>** = para exibir informações no navegador.
 
+**<'h2> <'/h2> **= Para utilizar como segundo titulo3
+
+**<'ul> <'/ul>** = Lista não ordenada 
+
+**<'ol> <'/ol> **= Lista Ordenada
+
+**<'li><'/li>** = utilizar para cada um dos itens da lista. 
+
+**<'div><'/div>** = para ter uma divisão em HTML e "facilitar" o uso do CSS.
+
+**<'header> <'/header>** = Cabeçalho 
+
 ### CSS  - Estilos
 
 <'p **style = "font-size: 20px"**> = para  editar o tamanho da fonte.
@@ -48,7 +60,7 @@
 
 **<'tag id="fonte"> ** = para marcar um paragrafo para poder utilizar o mesmo no CSS.
 
-**'#fonte {} ** = utilizar no style.css 
+**'#fonte {} ** = utilizar no style.css para usar identificador. 
 
 **<'img src = "nomedaimagem.formato">**
 
@@ -67,6 +79,16 @@
 **margin-left:40 px ** - espaçamento externo para esquerda 
 
 **margin-right:** - Direita 
+
+**<'tag class="itens">** = marcar itens para posteriormente colocar estilo em cada um deles
+
+**'.itens{}** = utilizar no style.css para utilizar classe.
+
+**font-style: italic;** Para utilizar estilo de fonte.
+
+**<'display: inline-block;>** = ocupa só o tamanho do conteúdo mas deixa mexer na largura e espaçamento.
+
+**<'vertical-align: top;>** = para alinhar pela linha de cima. 
 
 #### Cores hexadecimais
 
