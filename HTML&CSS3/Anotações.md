@@ -40,6 +40,10 @@
 
 **<'header> <'/header>** = Cabeçalho 
 
+**<'a href="index.html"><'a/>** = para criar um link em html
+
+**<'nav> <'/nav>** = para alterar o css dentro do cabeçario 
+
 ### CSS  - Estilos
 
 <'p **style = "font-size: 20px"**> = para  editar o tamanho da fonte.
@@ -89,6 +93,16 @@
 **<'display: inline-block;>** = ocupa só o tamanho do conteúdo mas deixa mexer na largura e espaçamento.
 
 **<'vertical-align: top;>** = para alinhar pela linha de cima. 
+
+**nav li{}** = Para alterar itens da lista que estão dentro da tag de navegação
+
+**nav a{}** = para alterar os links
+
+**text-transform: uppercase;** = para colocar o texto visivelmente em letras maiúsculas 
+
+**font-weight: bold;** = para deixar a fonte em negrito.
+
+**text-decoration: none;** = Para não ter alguma coisa de diferente no texto.
 
 #### Cores hexadecimais
 
