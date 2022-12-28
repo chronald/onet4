@@ -84,6 +84,8 @@
 
 **margin-right:** - Direita 
 
+**margin: 0(para cima para baixo) auto;** = para calcular e centralizar automaticamente. 
+
 **<'tag class="itens">** = marcar itens para posteriormente colocar estilo em cada um deles
 
 **'.itens{}** = utilizar no style.css para utilizar classe.
@@ -103,6 +105,16 @@
 **font-weight: bold;** = para deixar a fonte em negrito.
 
 **text-decoration: none;** = Para não ter alguma coisa de diferente no texto.
+
+**position: static;** = posição natural
+
+**position: relative;** =  Relativa a posição inicial.
+
+**position: absolute;**= posicionamento absoluto em qualquer lugar da página.
+
+**top = 0px ** = para utilizar a distancia entre o texto  e o topo
+
+**left: 10px** = espaçamento entre o texto e o ponto inicial.
 
 #### Cores hexadecimais
 
