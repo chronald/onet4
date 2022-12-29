@@ -44,6 +44,10 @@
 
 **<'nav> <'/nav>** = para alterar o css dentro do cabeçario 
 
+**<'main> <'/main> ** = Conteudo principal
+
+<'footer><'/footer> = rodapé
+
 ### CSS  - Estilos
 
 <'p **style = "font-size: 20px"**> = para  editar o tamanho da fonte.
@@ -115,6 +119,28 @@
 **top = 0px ** = para utilizar a distancia entre o texto  e o topo
 
 **left: 10px** = espaçamento entre o texto e o ponto inicial.
+
+**box-sizing: border-ox** = mudar a forma como pensa para que o espaçamento lateral esteja dentro do percentual
+
+**border: width style color;** = borda unificada/uma unica linha
+
+**border-color: ;** = Cor da borda
+
+**border-width: ;** = espessura da borda
+
+**border-style: ;** = estilo da borda. solid/dashed/dotted(pontilhado)
+
+**border-radius:** = para ter o elemento arredondar todos os cantos de forma igual.
+
+**:hover{}** = quando o usuário passa o cursor sobre o elemento
+
+**:active {}** = quando um elemento está sendo ativado pelo usuário
+
+**text-decoration: underline;** = para deixar sublinhado 
+
+**:hover h2{}**= Para sobrescrever caso a tag ja tenha recebido um parametro.
+
+**background: url("");** = Para utilizar uma imagem como background
 
 #### Cores hexadecimais
 
