@@ -46,7 +46,19 @@
 
 **<'main> <'/main> ** = Conteudo principal
 
-<'footer><'/footer> = rodapé
+**<'footer><'/footer> **= rodapé
+
+**<'form><'/form>** = formulario 
+
+**<'input>** = para coletar informação do usuario 
+
+**<'label><'/label>** = etiqueta para o input
+
+**Utilizar ID no input e for no label com a mesma informação** 
+
+**Toda caixa de texto terá um input type="submit"-**
+
+**Utilizar value"" no input do submit para passar uma nova frase** 
 
 ### CSS  - Estilos
 
