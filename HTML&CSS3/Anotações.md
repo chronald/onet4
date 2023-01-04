@@ -60,6 +60,18 @@
 
 **Utilizar value"" no input do submit para passar uma nova frase** 
 
+**Para ter um código mais clean com input e label, é possivel incluir o input dentro da label exemplo <'label for="" ><'input type="" name="" id=""><'/label'>**
+
+**<'textarea cols="30" rows="10"> <'/textarea>=** para entradas de texto de mais de uma linha 
+
+**<'input type="radio" value="email">** = terá um valor/ necessário utilizar label  para que tenha um texto.
+
+**<'input type"checkbox">**= Para ter uma caixinha para marca e desmarcar.
+
+**<'select></'select>** = Campo de seleção de um item
+
+**<'option><'/option>** = representa cada opção do seletor. 
+
 ### CSS  - Estilos
 
 <'p **style = "font-size: 20px"**> = para  editar o tamanho da fonte.
