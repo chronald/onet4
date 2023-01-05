@@ -72,6 +72,52 @@
 
 **<'option><'/option>** = representa cada opção do seletor. 
 
+**<'input type="text">** = input de texto
+
+**<'input type="email">** = input para email.
+
+**<'input type="tel">** = input para telefone
+
+**<'input type="number">** = input para número. bom para cpf/cep
+
+**<'input type="password">** = input para senha
+
+**<'input type="date">** = input para data
+
+**<'input type="datetime">** = input para data e hora.
+
+**<'input type="month">** = input para mês.
+
+**<'input type="search">** = input para pesquisa.
+
+**utilizar REQUIRED para tornar um campo de preenchimento obrigatório** 
+
+**utilizar placeholder="" pra sugestão de preenchimento**
+
+**utilizar checked para ter uma caixa marcada automaticamente ao entrar na pagina**
+
+**<'fieldset><''/fieldset>** = referente a configuração de um ou mais campos referente a um assunto especifico, utilizado para preenchimento de dados.
+
+**<'legend><'/legend>** = titulo do fieldset
+
+**utilizar alt="" para imagens, sendo uma alternativa para quem não consegue ver as imagens**
+
+**<'table><''/table>** = tag para utilizar tabela.
+
+**<'tr><'/tr>** = para utilizar linha na tabela
+
+**<'td><'/td>** = para utilizar uma célula na tabela
+
+**<'thead><'/thead>** = cabeçalho de uma tabela.
+
+**para informar que a célula é do cabeçalho ao invés de usar td, utilizamos <'th><'/th>**
+
+**<'tbody></'tbody>** = corpo de uma tabela.
+
+**<'tfoot><'/tfoot>** = rodapé da tabela
+
+**utilizar <'td colspan="número de colunas"'> <''/td> para agrupar células**
+
 ### CSS  - Estilos
 
 <'p **style = "font-size: 20px"**> = para  editar o tamanho da fonte.
@@ -165,6 +211,10 @@
 **:hover h2{}**= Para sobrescrever caso a tag ja tenha recebido um parametro.
 
 **background: url("");** = Para utilizar uma imagem como background
+
+**transition: 1s all; ** = para ter uma transição para mudar algum estilo utilizado em hover.
+
+**transform: scale(1.2)** = para aumentar um elemento propocionalmente
 
 #### Cores hexadecimais
 
