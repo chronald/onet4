@@ -118,6 +118,10 @@
 
 **utilizar <'td colspan="número de colunas"'> <''/td> para agrupar células**
 
+**<'section> <'/section>** = para um conteúdo que tenha o mesmo significado o mesmo sentido.
+
+**<'iframe src=""'><'/iframe>** = para abrir uma janela e ter informação como video/mapa etc.
+
 ### CSS  - Estilos
 
 <'p **style = "font-size: 20px"**> = para  editar o tamanho da fonte.
@@ -215,6 +219,12 @@
 **transition: 1s all; ** = para ter uma transição para mudar algum estilo utilizado em hover.
 
 **transform: scale(1.2)** = para aumentar um elemento propocionalmente
+
+**2em** = medida proporcional para pixels, se tem uma fonte de 15px utilizando 2em significa que é 2x o tamanho base
+
+**float: left** = Para deixar frases em volta de imagem./afeta completamente a estrutura da página.
+
+**clear: posição do float;** = utilizar no texto abaixo do float para limpar o mesmo.
 
 #### Cores hexadecimais
 
