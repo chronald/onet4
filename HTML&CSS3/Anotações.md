@@ -226,6 +226,30 @@
 
 **clear: posição do float;** = utilizar no texto abaixo do float para limpar o mesmo.
 
+**:first-child{}** = para utilizar em casos que tenha mais de um objeto dentro da classe e necessite pegar a primeira linha
+
+**:last-child{}** = para utilizar em casos que tenha mais de um objeto dentro da classe e necessite pegar a ultima linha
+
+**:nth-child(numero da linha){}** = para utilizar em casos que tenha mais de um objeto dentro da classe e necessite pegar uma linha especifica.
+
+**para ter uma transição de cor com css utilizar linear-gradient(cor, cor);** **utilizar 90deg para escolher o grau da transição de cor**
+
+ **radial-gradient() para ter a mudança de cor em formato de circulo**
+
+**utilizar :before para quando queremos criar um elemento na pagina via css antes do elemento do HTML**
+
+**utilizar :after para quando queremos criar um elemento na pagina via css depois do elemento do HTML**
+
+**para selecionar os filhos diretos da main utilizar main > p{}**
+
+**para escolher o primeiro paragrafo que sucede uma imagem utilizar img + p**
+
+**para selecionar todos os parágrafos localizados depois de uma imagem usamos o seletor ~**
+
+**Se quisermos excluir todos os parágrafos que não compõe uma id utilizamos:  p:not(#id){}**
+
+**para realizar calculo com css utilizar calc()**
+
 #### Cores hexadecimais
 
 ''#'' _ _ (red) _ _ (green) _ _ (blue)
