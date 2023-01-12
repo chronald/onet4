@@ -1,16 +1,21 @@
 body{
 	font-family: 'Montserrat', sans-serif;
 }
+
+/*Cabeçalho*/
 header {
 	background: #BBBBBB;
 	padding: 20px 0;
 }
 
+/*imagem da logo e o menu de navegação*/
 .caixa {
 	position: relative;
 	width: 940px;
 	margin: 0 auto;
 }
+
+/*itens Home, Menu e contatos que estão com links para outras páginas*/
 nav {
 	position: absolute;
 	top: 110px;
@@ -18,12 +23,13 @@ nav {
 
 }
 
+/*menu de navegação*/
 nav li {
 	display: inline;
 	margin: 0 0 0 15px;
 
 }
-
+/*menu de navegação que possui tag de link (a)*/
 nav a {
 	text-transform: uppercase;
 	color: #000000;
@@ -32,16 +38,19 @@ nav a {
 	text-decoration: none;
 }	
 
+/*Comportamento do mouse ao passar por cima do menu principal*/
 nav a:hover {
 	color: yellowgreen;
 	text-decoration: underline;
 }
 
+/*altera todos os produtos envolvidos na tag ul*/
 .produtos {
 	width: 940px;
 	margin: 0 auto;
 	padding: 50px 0;
 }
+/*altera somentos os produtos envolvidos na tag li */
 .produtos li {
 	display: inline-block;
 	text-align: center;
@@ -55,27 +64,29 @@ nav a:hover {
 
 }	
 
+/*comportamento do mouse ao passar pela lista de produtos*/
 .produtos li:hover {
 	border-color: yellowgreen;
 
 }
-
+/*Comportamento do click do mouse na lista de produtos*/
 .produtos li:active {
 	border-color: #C78C19;
 }
-
+/*Comportamento do mouse ao passar pela lista de produtos alterando o h2 que são referentes ao tipos de cortes de cabelo e barba*/
 .produtos li:hover h2 {
 	font-size: 35px;
 }
+/*título dos produtos*/
 .produtos h2 {
 	font-size: 30px;
 	font-weight: bold;
 }
-
+/*descrição dos produtos*/
 .produto-descricao {
 	font-size: 18px;
 }
-
+/*preço dos produtos*/
 .preco-produto {
 	font-size: 22px;
 	font-weight: bold;
@@ -166,6 +177,7 @@ td, th{
 	font-size: 2em;
 	margin: 0 0 1em;
 	clear: left;
+
 	
 }
 
@@ -200,6 +212,7 @@ td, th{
 .beneficios{
 	padding: 3em 0;
 	background: #888888;
+
 }
 
 
@@ -226,7 +239,7 @@ td, th{
 }
 
 .lista-beneficios{
-	width: 33.5%;
+	width: 34%;
 	display: inline-block;
 	vertical-align: top;
 
@@ -245,12 +258,77 @@ td, th{
 }
 
 .imagem-beneficios {
-	width: 60%;
-
+	width: 57%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px 0 #000000;
 }
 
+.imagem-beneficios:hover{
+	opacity: 0.3;
+}
 .video {
 	width: 560px;
 	margin: 2em auto;
+}
+
+@media screen and (max-width: 480px) {
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos {
+		width: auto;
+	}
+
+	h1{
+	text-align: center;
+	}
+
+
+	nav {
+		position: static;
+	}
+	.lista-beneficios, .imagem-beneficios, {
+		width: 100%;
+		margin: 15px 0;
+	}
+	
+	.produto-descricao, .preco-produto, .imagem{
+		width: 100%;
+		text-align: left;
+		margin: 15px 0;
+	}
+	.itens{
+		margin: 0 10px;
+	}
+	
+	.produtos li {
+		width: auto;
+		margin: 1em;
+		display: block;
+	}
+
+	form {
+		width: auto;
+		text-align: center;
+	}
+
+	.input-padrao {
+		width: 89%;
+		padding: 0px;
+		height: 3em;
+		margin: 0 auto;
+	}
+	#mensagem {
+		height: 5em;
+	}
+	table{
+		margin: 1em auto;
+	}
+
+	form label {
+		padding: 2px;
+	}
+
+	fieldset > legend {
+		padding: 5px;
+	}
 }
 

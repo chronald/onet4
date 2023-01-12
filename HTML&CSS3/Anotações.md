@@ -122,6 +122,8 @@
 
 **<'iframe src=""'><'/iframe>** = para abrir uma janela e ter informação como video/mapa etc.
 
+**utilizar <'meta name="viewport" content="width=device-width"> para saber a largura do dispositivo** 
+
 ### CSS  - Estilos
 
 <'p **style = "font-size: 20px"**> = para  editar o tamanho da fonte.
@@ -249,6 +251,16 @@
 **Se quisermos excluir todos os parágrafos que não compõe uma id utilizamos:  p:not(#id){}**
 
 **para realizar calculo com css utilizar calc()**
+
+**utilizar opacity: 0 a 1;  para alterar a visibilidade de algo.**
+
+**utilizar rgba(0,0,0,0,0.3) para ter mais uma camada de opacidade.**
+
+**Para ter uma sombra em um elemento utilizar box-shadow: Xpx Ypx COR;**
+
+**Para ter uma sombra em texto utilizar text-shadow: 2px 2px cor;**
+
+**utilizar @media screen and (max-width: tamanho da tela até valor x) para ter estilo diferente, reescrito**
 
 #### Cores hexadecimais
 
